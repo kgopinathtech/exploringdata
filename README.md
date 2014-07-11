@@ -1,4 +1,4 @@
 exploringdata
 =============
 
-Coursera Exploratory Data Analysis module
+Project 1  - Base Plots
