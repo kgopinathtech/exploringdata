@@ -9,5 +9,5 @@ pwr2<-subset(pwr,(Date>=d1&Date<=d2),)
 hist(pwr2$Global_active_power,breaks=12,main="Global Active Power",col="red",xlab="Global Active Power (kilowatts)")
 
 ##copy to png file
-dev.copy(png,file="plot1.png")
+dev.copy(png,file="plot1.png", width=480,height=480)
 dev.off()
